@@ -1,0 +1,167 @@
+:root {
+  /* Fonts */
+  --roboto-font-cl: 'Roboto', sans-serif;
+  --raleway-font-cl: 'Raleway', sans-serif;
+  --iris-cl: #4d5ae5;
+  --ocean-cl: #404bbf;
+  --navyblue-cl: #2e2f42;
+  --green-cl: #31d0aa;
+  --slate-cl: #434455;
+  --lightslate-cl: #8e8f99;
+  --cornflower-cl: #e7e9fc;
+  --cloud-cl: #f4f4fd;
+  --navyblue-modal-cl: #2e2f42;
+  --dairy-cl: #fcfcfc;
+
+}
+
+body {
+  font-family: var(--roboto-font);
+  background-color: #fff;
+  color: var(--slate);
+  margin: 0;
+}
+
+button {
+  font: var(--font-roboto);
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+
+.header {
+  
+}
+.header-nav {
+}
+.header-logo-img-first-part {
+}
+.header-logo-img-second-partStudio {
+}
+.header-nav-list {
+}
+.list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.link {
+}
+.header-adress {
+}
+.header-adress-item {
+}
+.header-adress-link {
+}
+.hero-section {
+}
+.hero-section-title {
+}
+.hero-section-button {
+}
+.features-section {
+}
+.features-section-title {
+}
+.features-section-list {
+}
+.features-section-element {
+}
+.features-section-element-title {
+}
+.features-section-element-description {
+}
+.projects-section {
+}
+.projects-section-title {
+}
+.projects-section-list {
+}
+.projects-section-element {
+}
+.projects-section-image {
+}
+.team-section {
+}
+.team-section-title {
+}
+.team-section-list {
+}
+.team-section-element {
+}
+.team-section-image {
+}
+.team-section-name {
+}
+.team-section-position {
+}
+.footer {
+}
+.footer-logo-first-part {
+}
+.footer-logo-second-part {
+  color:var( --iris-cl)
+}
+.footer-subject {
+}
+
+
+/* portfolio css style*/
+.header {
+}
+.header-nav {
+}
+.header-logo-img-first-part {
+}
+.header-logo-img-second-partStudio {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.header-adress {
+}
+.list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+}
+.filters {
+}
+.filters-buttons-list {
+}
+.filters-buttons-item {
+}
+.filters-buttons-element {
+}
+.filter-active {
+}
+.grid {
+}
+.grid-item {
+}
+.grid-item-image {
+  
+}
+.grid-item-title {
+}
+.grid-item-subtitle {
+}
+.footer {
+}
+.footer-logo-first-part {
+}
+.footer-logo-second-part {
+}
+.footer-subject {
+}
+
+
+
