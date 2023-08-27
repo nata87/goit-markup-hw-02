@@ -16,38 +16,38 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-        <!-- Header -->
-        <header class="header" id="home">
-          <nav class="header-nav">
-            <a class="header-logo-img-first-part" href="./index.html"
-              >Web<span class="header-logo-img-second-partStudio">Studio</span></a
+  <body class="body">
+    <!-- Header -->
+    <header class="header" id="home">
+      <nav class="header-nav">
+        <a class="header-logo-link link" href="./index.html"
+          >WEB<span class="header-logo-text">STUDIO</span></a
+        >
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="#studio">Studio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="header-adress">
+        <ul class="header-adress list">
+          <li class="header-adress-item">
+            <a class="header-adress-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
-            <ul class="header-nav-list list">
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="#studio">Studio</a>
-              </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="#contacts">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="header-adress">
-            <ul class="header-adress list">
-              <li class="header-adress-item">
-                <a class="header-adress-link link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="header-adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-              </li>
-            </ul>
-          </address>
-        </header>
+          </li>
+          <li>
+            <a class="header-adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+    </header>
     <main>
       <!--hero section-->
       <section class="hero-section">
@@ -57,7 +57,7 @@
       <!--Section 1-->
       <section class="features-section">
         <h2 class="features-section-title">Features</h2>
-        <ul class="features-section-list">
+        <ul class="features-section-list list">
           <li class="features-section-element">
             <h3 class="features-section-element-title">Strategy</h3>
             <p class="features-section-element-description">
@@ -92,27 +92,33 @@
       <!--Section 2-->
       <section class="projects-section">
         <h2 class="projects-section-title">What are we doing</h2>
-        <ul class="projects-section-list">
+        <ul class="projects-section-list list">
           <li class="projects-section-element">
-            <img class="projects-section-image" 
-            src="./images/whatWeAreDoing/image.jpg" 
-            alt="DESKTOPE" 
-            width="360" 
-            height="300" />
+            <img
+              class="projects-section-image"
+              src="./images/whatWeAreDoing/image.jpg"
+              alt="DESKTOPE"
+              width="360"
+              height="300"
+            />
           </li>
           <li class="projects-section-element">
-            <img class="projects-section-image"
+            <img
+              class="projects-section-image"
               src="./images/whatWeAreDoing/rectangle2.jpg"
               alt="MOBILE APPS"
               width="360"
-              height="300"/>
+              height="300"
+            />
           </li>
           <li class="projects-section-element">
-            <img class="projects-section-image"
+            <img
+              class="projects-section-image"
               src="./images/whatWeAreDoing/rectangle1.jpg"
               alt="BACK UP"
               width="360"
-              height="300"/>
+              height="300"
+            />
           </li>
         </ul>
       </section>
@@ -120,24 +126,48 @@
       <!--SECTION 3-->
       <section class="team-section">
         <h2 class="team-section-title">Our Team</h2>
-        <ul class="team-section-list">
+        <ul class="team-section-list list">
           <li class="team-section-element">
-            <img class="team-section-image" src="./images/team/teamCard1.jpg" alt="Mark Guerrero" width="264" height="260" />
+            <img
+              class="team-section-image"
+              src="./images/team/teamCard1.jpg"
+              alt="Mark Guerrero"
+              width="264"
+              height="260"
+            />
             <h3 class="team-section-name">Mark Guerrero</h3>
             <p class="team-section-position">Product Designer</p>
           </li>
           <li class="team-section-element">
-            <img class="team-section-image" src="./images/team/teamCard2.jpg" alt="Tom Ford" width="264" height="260" />
+            <img
+              class="team-section-image"
+              src="./images/team/teamCard2.jpg"
+              alt="Tom Ford"
+              width="264"
+              height="260"
+            />
             <h3 class="team-section-name">Tom Ford</h3>
             <p class="team-section-position">Frontend Developer</p>
           </li>
           <li class="team-section-element">
-            <img class="team-section-image" src="./images/team/teamCard3.jpg" alt="Camila Garcia" width="264" height="260" />
+            <img
+              class="team-section-image"
+              src="./images/team/teamCard3.jpg"
+              alt="Camila Garcia"
+              width="264"
+              height="260"
+            />
             <h3 class="team-section-name">Camila Garcia</h3>
             <p class="team-section-position">Marketing</p>
           </li>
           <li class="team-section-element">
-            <img class="team-section-image" src="./images/team/teamCard4.jpg" alt="Daniel Wilson" width="264" height="260" />
+            <img
+              class="team-section-image"
+              src="./images/team/teamCard4.jpg"
+              alt="Daniel Wilson"
+              width="264"
+              height="260"
+            />
             <h3 class="team-section-name">Daniel Wilson</h3>
             <p class="team-section-position">UI Designer</p>
           </li>
@@ -146,9 +176,8 @@
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <a class="footer-logo-first-part" href="./index.html"
-        >Web<span class="footer-logo-second-part">Studio</span></a
-      >
+      <a class="footer-logo-link link" href="./index.html"
+        >WEB<span class="footer-logo-text">STUDIO</span></a>
       <p class="footer-subject">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
