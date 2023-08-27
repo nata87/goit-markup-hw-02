@@ -23,7 +23,6 @@
 }
 
 button {
-  font-family: var(--roboto-font);
   background: none;
   border: none;
   cursor: pointer;
@@ -272,18 +271,18 @@ color: var(--navyblue-cl);
 
 .filters-buttons-element,
 .filters-buttons-element {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
-  color: var(--white-cl);
-  background-color: var(--iris-cl);
+  background-color: var(--cloud-cl);
+  color: var(--iris-cl);
 }
 .filters-buttons-element,
 filters-buttons-list {
   background-color: var(--cornflower-cl);
+  list-style:none;
 }
 
 .filter-active {
@@ -298,7 +297,7 @@ filters-buttons-list {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--navyblue-cl);
