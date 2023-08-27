@@ -9,7 +9,7 @@
   --slate-cl: #434455;
   --lightslate-cl: #8e8f99;
   --cornflower-cl: #e7e9fc;
-  --cloud-cl: #f4f4fd;
+  --cloud-cl: #F4F4FD;
   --navyblue-modal-cl: #2e2f42;
   --dairy-cl: #fcfcfc;
   --white-cl: #fff;
@@ -269,7 +269,6 @@ color: var(--navyblue-cl);
   background-color: var(--ocean-cl);
 }
 
-.filters-buttons-element,
 .filters-buttons-element {
   font-size: 16px;
   font-weight: 500;
@@ -280,8 +279,8 @@ color: var(--navyblue-cl);
   color: var(--iris-cl);
   font-family: var(--roboto-font);
 }
-.filters-buttons-element,
-filters-buttons-list {
+
+.filters-buttons-list {
   background-color: var(--cornflower-cl);
   list-style:none;
 }
