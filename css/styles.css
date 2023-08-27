@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
   --roboto-font: 'Roboto', sans-serif;
-  --raleway-font: 'Raleway', sans-serif;
+  --raleway-font: "Raleway", sans-serif;
   --iris-cl: #4d5ae5;
   --ocean-cl: #404bbf;
   --navyblue-cl: #2e2f42;
@@ -44,14 +44,13 @@ button {
 }
 .header-logo-link,
 .footer-logo-link {
-  font-family: var(--raleway-font-cl);
+  font-family: var(--raleway-font);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform:uppercase;
   text-align: left;
-
   color: var(--iris-cl);
 }
 
@@ -72,6 +71,16 @@ button {
 
 .header-nav-list {
 }
+
+
+.header-nav-list .header-nav-link a:hover,
+.header-nav-list .header-nav-link a:focus,
+.header-adress-list .header-adress-item a:hover,
+.header-adress-list .header-adress-item a:focus {
+  color:var(--ocean-cl);
+}
+
+
 
 .header-nav-item {
 }
@@ -119,7 +128,7 @@ color: var(--navyblue-cl);
   font-family: inherit;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07em;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-cl);
@@ -174,11 +183,14 @@ color: var(--navyblue-cl);
   font-family: inherit;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11em;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navyblue-cl);
+  text-transform:capitalize;
 }
+
+
 .projects-section-list {
 }
 .projects-section-element {
@@ -203,6 +215,7 @@ color: var(--navyblue-cl);
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--navyblue-cl);
 }
 .team-section-position {
   font-family: inherit;
