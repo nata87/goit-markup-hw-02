@@ -84,7 +84,6 @@ button {
 .header-nav-item {
 }
 .header-nav-link {
-
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -99,9 +98,7 @@ color: var(--navyblue-cl);
 }
 
 .header-adress {
-  font-family: inherit;
   font-size: 16px;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -111,9 +108,7 @@ color: var(--navyblue-cl);
 .header-adress-item {
 }
 .header-adress-link {
-  font-family: Roboto;
   font-size: 16px;
-
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -124,7 +119,6 @@ color: var(--navyblue-cl);
   background-color: var(--navyblue-cl);
 }
 .hero-section-title {
-  font-family: inherit;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07em;
@@ -157,7 +151,6 @@ color: var(--navyblue-cl);
 .features-section-element {
 }
 .features-section-element-title {
-  font-family: inherit;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -166,9 +159,7 @@ color: var(--navyblue-cl);
   color: var(--navyblue-cl);
 }
 .features-section-element-description {
-  font-family: inherit;
   font-size: 16px;
-
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -179,7 +170,6 @@ color: var(--navyblue-cl);
 
 .projects-section-title,
 .team-section-title {
-  font-family: inherit;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11em;
@@ -208,7 +198,6 @@ color: var(--navyblue-cl);
 .team-section-image {
 }
 .team-section-name {
-  font-family: inherit;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -217,7 +206,6 @@ color: var(--navyblue-cl);
   color: var(--navyblue-cl);
 }
 .team-section-position {
-  font-family: inherit;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -281,7 +269,6 @@ color: var(--navyblue-cl);
 }
 
 .filters-buttons-list {
-  background-color: var(--cornflower-cl);
   list-style:none;
 }
 
@@ -294,7 +281,6 @@ color: var(--navyblue-cl);
 .grid-item-image {
 }
 .grid-item-title {
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
@@ -304,9 +290,7 @@ color: var(--navyblue-cl);
 }
 
 .grid-item-subtitle {
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
