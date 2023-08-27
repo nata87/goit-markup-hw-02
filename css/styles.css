@@ -278,6 +278,7 @@ color: var(--navyblue-cl);
   text-align: center;
   background-color: var(--cloud-cl);
   color: var(--iris-cl);
+  font-family: var(--roboto-font);
 }
 .filters-buttons-element,
 filters-buttons-list {
