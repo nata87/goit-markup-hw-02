@@ -13,13 +13,12 @@
   --navyblue-modal-cl: #2e2f42;
   --dairy-cl: #fcfcfc;
   --white-cl: #fff;
-
 }
 
 .body {
   font-family: var(--roboto-font-cl);
-  background-color:(var(--white-cl));
-  color: var(--slate--cl);
+  background-color: var(--white-cl);
+  color: var(--slate-cl);
   margin: 0;
 }
 
@@ -38,40 +37,34 @@ button {
   text-decoration: none;
 }
 
-
-
-.header, 
+.header,
 .footer {
-
-  
 }
 .header-nav {
 }
 .header-logo-link,
-.footer-logo-link{
+.footer-logo-link {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
-  
+
   color: var(--iris-cl);
 }
 
 .header-logo-link:hover,
-.header-logo-link:focus{
-color:var(--ocean-cl);
+.header-logo-link:focus {
+  color: var(--ocean-cl);
 }
 
-.header-logo-text{
+.header-logo-text {
   color: var(--navyblue-cl);
 }
-.footer-logo-text{
-  color:var(--cloud-cl);
-
+.footer-logo-text {
+  color: var(--cloud-cl);
 }
-
 
 .header-nav-list {
 }
@@ -79,9 +72,6 @@ color:var(--ocean-cl);
 .header-nav-item {
 }
 .header-nav-link {
-
-
-
 }
 
 .header-adress {
@@ -91,46 +81,41 @@ color:var(--ocean-cl);
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-color: var(--slate-cl);
-
+  color: var(--slate-cl);
 }
 .header-adress-item {
 }
 .header-adress-link {
-font-family: Roboto;
-font-size: 16px;
+  font-family: Roboto;
+  font-size: 16px;
 
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: var(--slate--cl);
-  }
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--slate-cl);
+}
 
 .hero-section {
   background-color: var(--navyblue-cl);
 }
 .hero-section-title {
-
-font-family: inherit;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.02em;
-text-align: center;
-color: var(--white-cl);
-
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-cl);
 }
 .hero-section-button {
-
-font-family: inherit;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-text-align: left;
-background-color: var(--iris-cl);
-color: var(--white-cl);
-
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  background-color: var(--iris-cl);
+  color: var(--white-cl);
 }
 
 .hero-section-button:hover,
@@ -147,39 +132,35 @@ color: var(--white-cl);
 .features-section-element {
 }
 .features-section-element-title {
-font-family: inherit;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: var(--navyblue-cl);
-
-
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navyblue-cl);
 }
 .features-section-element-description {
-font-family: inherit;
-font-size: 16px;
+  font-family: inherit;
+  font-size: 16px;
 
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color:var(--slate--cl)
-
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--slate-cl);
 }
 .projects-section {
 }
 
 .projects-section-title,
 .team-section-title {
-font-family: inherit;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
-color: var(--navyblue-cl);
-
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navyblue-cl);
 }
 .projects-section-list {
 }
@@ -198,30 +179,25 @@ color: var(--navyblue-cl);
 }
 .team-section-image {
 }
-.team-section-name{
-font-family: inherit;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
-
+.team-section-name {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-section-position {
-
-font-family: inherit;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
-
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
-.footer{
- background-color: var(--navyblue-cl);
-
+.footer {
+  background-color: var(--navyblue-cl);
 }
-
 
 .footer,
 .footer-subject {
@@ -259,61 +235,53 @@ text-align: center;
 .filters-buttons-item {
 }
 .filters-buttons-element:hover,
-.filters-buttons-element:focus  {
+.filters-buttons-element:focus {
   color: var(--white-cl);
   background-color: var(--ocean-cl);
-
 }
 
 .filters-buttons-element,
-.filters-buttons-element{
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-text-align: center;
-color: var(--white-cl);
-background-color: var(--iris-cl);
-
+.filters-buttons-element {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--white-cl);
+  background-color: var(--iris-cl);
 }
 .filters-buttons-element,
-filters-buttons-list{
+filters-buttons-list {
   background-color: var(--cornflower-cl);
 }
-
 
 .filter-active {
 }
 .grid {
 }
 .grid-item {
-  
 }
 .grid-item-image {
 }
 .grid-item-title {
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: var(--navyblue-cl);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navyblue-cl);
 }
 
 .grid-item-subtitle {
- 
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: var(sla);
-  
-
-
+  color: var(--slate-cl);
 }
 .footer-subject {
 }
